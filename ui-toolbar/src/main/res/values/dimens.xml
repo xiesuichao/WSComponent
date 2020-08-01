@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="common_text_size">14sp</dimen>
+    <dimen name="version_text_size">12sp</dimen>
+    <dimen name="withdraw_balance_of_day">11sp</dimen>
+    <dimen name="btn_submit_text_size">17sp</dimen>
+
+    <dimen name="WheelItemTextSize">14sp</dimen>
+    <dimen name="WheelItemSelectTextSize">16sp</dimen>
+    <dimen name="WheelItemSpace">12dp</dimen>
+    <dimen name="WheelIndicatorSize">2dp</dimen>
+    <dimen name="WheelMargins">8dp</dimen>
+</resources>

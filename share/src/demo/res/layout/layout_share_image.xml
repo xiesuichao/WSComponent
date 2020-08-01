@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="325dp"
+        android:layout_height="490dp"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_wx_logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="27dp"
+            />
+        
+        <ImageView
+            android:layout_width="251dp"
+            android:layout_height="251dp"
+            android:src="@drawable/hpoto"
+            android:layout_gravity="center_horizontal"
+
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/iv_invite_qrcode"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/tv_invite_my_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="我的邀请码 | dkgphh"
+            android:textSize="12dp"
+            android:textColor="#383838"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="56dp"
+            android:paddingRight="56dp"
+            android:background="#0D0F1118"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

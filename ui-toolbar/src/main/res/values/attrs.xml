@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyToolbar">
+        <!--隐藏返回键-->
+        <attr name="toolbarBackBtnVisible" format="boolean" />
+        <!--右侧图片-->
+        <attr name="toolbarRightBtnDrawable" format="reference" />
+        <!--返回图片-->
+        <attr name="toolbarBackBtnDrawable" format="reference" />
+        <!--标题内容-->
+        <attr name="toolbarTitle" format="string" localization="suggested" />
+        <!--标题字体大小-->
+        <attr name="toolbarTitleSize" format="dimension" />
+        <!--标题字体颜色-->
+        <attr name="toolbarTitleColor" format="color" />
+        <!--标题字体样式-->
+        <attr name="toolbarTitleTextStyle" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+        <!--右侧文本-->
+        <attr name="toolbarRightBtnText" format="string" localization="suggested" />
+        <!--右侧文本字体大小-->
+        <attr name="toolbarRightBtnTextSize" format="dimension" />
+        <!--右侧文本颜色-->
+        <attr name="toolbarRightBtnTextColor" format="color" />
+        <!--背景色-->
+        <attr name="toolbarBackgroundColor" format="color" />
+        <attr name="toolbarTheme" format="enum" localization="suggested">
+            <enum name="black" value="0" />
+            <enum name="white_bg" value="1" />
+            <enum name="edit" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+</resources>

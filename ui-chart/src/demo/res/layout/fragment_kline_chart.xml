@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chart_kline_background"
+    >
+    <RadioGroup
+        android:id="@+id/rg_main_part"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/cb_main_ma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MA"
+            android:textColor="@color/chart_text_gray"
+            />
+
+        <RadioButton
+            android:id="@+id/cb_main_ema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMA"
+            android:textColor="@color/chart_text_gray"
+            />
+
+        <RadioButton
+            android:id="@+id/cb_main_boll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOLL"
+            android:textColor="@color/chart_text_gray"
+            />
+        <RadioButton
+            android:id="@+id/cb_main_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="隐藏"
+            android:textColor="@color/chart_text_gray"
+            />
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/rg_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rg_main_part"
+        android:orientation="horizontal">
+
+      <!--  <RadioButton
+            android:id="@+id/cb_vol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="成交量"
+            android:textColor="@color/white"
+            />-->
+
+        <RadioButton
+            android:id="@+id/cb_macd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MACD"
+            android:textColor="@color/chart_text_gray"
+            />
+
+        <RadioButton
+            android:id="@+id/cb_kdj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KDJ"
+            android:textColor="@color/chart_text_gray"
+            />
+        <RadioButton
+            android:id="@+id/cb_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="隐藏"
+            android:textColor="@color/chart_text_gray"
+            />
+    </RadioGroup>
+
+    <com.wanshare.wscomponent.chart.kline.WSKlineView
+        android:id="@+id/kline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rg_index" />
+
+
+
+</RelativeLayout>

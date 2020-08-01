@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_content">
+        <item>AA</item>
+        <item>BB</item>
+        <item>CC</item>
+        <item>DD</item>
+        <item>EE</item>
+        <item>FF</item>
+        <item>GG</item>
+        <item>HH</item>
+        <item>II</item>
+        <item>JJ</item>
+        <item>KK</item>
+        <item>LL</item>
+        <item>MM</item>
+        <item>NN</item>
+        <item>OO</item>
+        <item>PP</item>
+        <item>QQ</item>
+        <item>RR</item>
+        <item>SS</item>
+        <item>TT</item>
+        <item>UU</item>
+    </string-array>
+</resources>

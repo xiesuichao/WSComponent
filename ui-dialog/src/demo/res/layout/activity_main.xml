@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_dialog1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="一个按钮的对话框" />
+
+    <Button
+        android:id="@+id/btn_dialog2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="两个按钮的对话框" />
+
+    <Button
+        android:id="@+id/btn_dialog3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="自定义主题的对话框" />
+
+    <Button
+        android:id="@+id/btn_dialog4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="自定义内容的对话框" />
+
+    <Button
+        android:id="@+id/btn_progress_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="显示进度框" />
+
+    <Button
+        android:id="@+id/btn_progress_dialog2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="显示自定义主题进度框" />
+
+    <Button
+        android:id="@+id/btn_progress_dialog3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="显示自定义progressbar进度框" />
+
+    <Button
+        android:id="@+id/btn_bottom_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="底部弹出dialog" />
+
+</LinearLayout>

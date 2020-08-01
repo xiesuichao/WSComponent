@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">klinelib</string>
+    <string name="chart_loading">加载中</string>
+
+
+    <string name="chart_price">价格</string>
+    <string name="chart_change_amount">涨跌额</string>
+    <string name="chart_change_rate">涨跌幅</string>
+    <string name="chart_volume">成交量</string>
+
+    <string name="chart_open_price">开</string>
+    <string name="chart_close_price">收</string>
+    <string name="chart_high_price">高</string>
+    <string name="chart_low_price">低</string>
+
+    <string name="chart_main_chart">主图</string>
+    <string name="chart_hide">隐藏</string>
+    <string name="chart_second_chart">副图</string>
+    <string name="chart_quota">指标</string>
+    <string name="chart_more">更多</string>
+</resources>

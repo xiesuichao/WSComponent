@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">share</string>
+    <string name="no_facebook_client_hint">请先安装Facebook客户端</string>
+</resources>

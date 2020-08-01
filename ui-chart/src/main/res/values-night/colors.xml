@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chart_main_color_red">#FF424A</color>
+    <color name="chart_main_color_green">#00B23E</color>
+
+    <color name="chart_main_text_color">#808F9E</color>
+
+    <!--图表-->
+    <color name="chart_marker_color">#be945c</color>
+    <color name="chart_marker_text_color">#333333</color>
+    <color name="chart_grid_color">#272A37</color>
+
+    <color name="chart_ma5">#FFA800</color>
+    <color name="chart_ma10">#2668FF</color>
+    <color name="chart_ma20">#3C7193</color>
+    <color name="chart_ma30">#FF45A1</color>
+
+    <color name="chart_boll_up">@color/chart_ma10</color>
+    <color name="chart_boll_mb">@color/chart_ma5</color>
+    <color name="chart_boll_dn">@color/chart_ma30</color>
+
+    <color name="chart_vol">#9BACBD</color>
+    <color name="chart_vol_ma5">#FFA800</color>
+    <color name="chart_vol_ma10">#2668FF</color>
+
+    <color name="chart_bottom_color_1">#9BACBD</color>
+    <color name="chart_bottom_color_2">#FFA800</color>
+    <color name="chart_bottom_color_3">#2668FF</color>
+    <color name="chart_bottom_color_4">#FF45A1</color>
+
+    <color name="chart_dif">@color/chart_bottom_color_3</color>
+    <color name="chart_dea">@color/chart_bottom_color_4</color>
+
+    <color name="chart_k">@color/chart_bottom_color_2</color>
+    <color name="chart_d">@color/chart_bottom_color_3</color>
+    <color name="chart_j">@color/chart_bottom_color_4</color>
+
+    <color name="chart_increasing_color">@color/chart_main_color_red</color>
+    <color name="chart_decreasing_color">@color/chart_main_color_green</color>
+    <color name="chart_normal_line_color">#be945c</color>
+    <color name="chart_ave_color">#666</color>
+    <!--x轴坐标颜色-->
+    <color name="chart_axis_color">#718aa5</color>
+
+    <color name="chart_no_data_color">#be945c</color>
+    <color name="chart_highlight_color">#828EA2</color>
+    <color name="chart_limit_color">#adadad</color>
+    <color name="chart_white">#fff</color>
+    <color name="chart_description_color">#718aa5</color>
+    <color name="chart_kline_background">#1F222D</color>
+    <!--char_info-->
+    <color name="chart_info_background_color">#0F1118</color>
+    <color name="chart_info_background_border_color">#42566D</color>
+    <color name="chart_info_text_color">@color/chart_main_text_color</color>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="common_dialog_theme" parent="android:style/Theme.Dialog">
+        <!--你的layout背景颜色及和透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--屏幕其他地方是否模糊变黑-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="base_common_dialog_style" parent="common_dialog_theme">
+        <item name="commonDialogBackground">@android:color/white</item>
+        <item name="commonDialogTitleTextSize">24sp</item>
+        <item name="commonDialogTitleTextColor">@android:color/black</item>
+        <item name="commonDialogContentTextSize">15sp</item>
+        <item name="commonDialogContentTextColor">@android:color/black</item>
+        <item name="commonDialogBtnPositiveBackground">@drawable/selector_dialog_btn_positive</item>
+        <item name="commonDialogBtnNegativeBackground">@drawable/selector_dialog_btn_negative</item>
+        <item name="commonDialogBtnTextSize">18sp</item>
+        <item name="commonDialogBtnPositiveTextColor">@android:color/white</item>
+        <item name="commonDialogBtnNegativeTextColor">@android:color/white</item>
+    </style>
+
+
+    <style name="common_progress_dialog_theme_base" parent="Theme.AppCompat.Dialog">
+        <!--页面是否变暗-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!--window背景颜色-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="commonProgressDialogMsgTextColor">@android:color/white</item>
+        <item name="commonProgressDialogTextSize">16dp</item>
+        <item name="commonProgressDialogProgressDrawable">@drawable/ic_circle_progress</item>
+    </style>
+
+</resources>

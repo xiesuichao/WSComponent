@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="kline_style_chart_info_left_label">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/chart_info_text_color</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="kline_style_chart_info_right_value">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/chart_info_text_color</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+</resources>

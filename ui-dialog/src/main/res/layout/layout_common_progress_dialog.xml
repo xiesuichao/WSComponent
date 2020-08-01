@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!--进度条-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/shape_progress_bar_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/fl_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true">
+
+        <ProgressBar
+            android:id="@+id/pd_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateDrawable="?attr/commonProgressDialogProgressDrawable"
+            android:indeterminateDuration="1000"
+            android:indeterminateOnly="true"
+            android:maxHeight="45dp"
+            android:maxWidth="45dp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fl_progress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:textColor="?attr/commonProgressDialogMsgTextColor"
+        android:textSize="?attr/commonProgressDialogTextSize"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

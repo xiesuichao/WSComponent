@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.wanshare.wscomponent.toolbar.MyToolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:toolbarBackgroundColor="@color/colorAccent"
+        app:toolbarRightBtnText="搜索"
+        app:toolbarRightBtnTextColor="@color/colorPrimary"
+        app:toolbarTitle="布局初始化的titlebar"
+        app:toolbarTitleSize="18dp"
+        app:toolbarRightBtnTextSize="18dp"
+        app:toolbarTitleColor="@color/colorPrimary"
+        app:toolbarBackBtnDrawable="@drawable/ic_return_sel"
+        app:toolbarTitleTextStyle="italic"/>
+
+    <com.wanshare.wscomponent.toolbar.MyToolbar
+        android:id="@+id/my_toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" />
+
+</LinearLayout>

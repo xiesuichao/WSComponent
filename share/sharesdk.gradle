@@ -1,0 +1,76 @@
+// Share SDK
+MobSDK {
+    appKey "26832997fabaa"
+    appSecret "f1f7f4e821c7072d0e993b9baaf51438"
+
+    ShareSDK {
+
+        gui false
+
+        //平台配置信息
+        devInfo {
+            Wechat {
+                id 1
+                sortId 1
+                appId "wxed146e633b7d2655"
+                appSecret "758a4631f735d09ecb4bbedbe9cd3e2e"
+                bypassApproval false
+                enable true
+            }
+            WechatMoments {
+                id 2
+                sortId 2
+                appId "wxed146e633b7d2655"
+                appSecret "758a4631f735d09ecb4bbedbe9cd3e2e"
+                bypassApproval false
+                enable true
+            }
+            /*QQ {
+                id 2
+                sortId 2
+                appId "1106915505"
+                appKey "57gXkP6rB5YZz8aw"
+                shareByAppClient true
+                bypassApproval false
+                enable true
+            }*/
+            SinaWeibo {
+                id 3
+                sortId 3
+                appKey "451540598"
+                appSecret "e7bd1c59eae887d7f2a2cf263ddfaefb"
+                callbackUri "http://www.wanshare.com"
+                shareByAppClient true
+                enable true
+            }
+            Twitter {
+                id 4
+                sortId 4
+                appKey "xiLw926sfivbudUBUEJapB3rv"
+                appSecret "28klXe6JHd9fHhx25eCVZJ1nY6RnXhZtAv8kgZhakahQOFbF2w"
+                callbackUri "http://www.wanshare.com"
+                enable true
+            }
+
+            Facebook {
+                id 5
+                sortId 5
+                appKey "1841543776147772"
+                appSecret "2e5d640306c4e3f9dde64ec3e45db8f7"
+                callbackUri "https://www.wanshare.com/"
+                shareByAppClient true
+                enable true
+            }
+            LinkedIn {
+                id 6
+                sortId 6
+                appKey "81j1p4tf1tp83b"
+                appSecret "0RjaYL3iaxJsJSiL"
+                callbackUri "https://www.wanshare.com/"
+                shareByAppClient true
+                enable true
+            }
+        }
+    }
+
+}

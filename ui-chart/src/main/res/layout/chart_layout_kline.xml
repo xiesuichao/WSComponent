@@ -1,0 +1,199 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:id="@+id/fl_bottom_part"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chart_bottom_part_height"
+        android:layout_gravity="bottom"
+        android:paddingLeft="6dp">
+
+
+        <com.guoziwei.klinelib.chart.CustomCombinedChart
+            android:id="@+id/macd_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.guoziwei.klinelib.chart.CustomCombinedChart
+            android:id="@+id/kdj_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_bottom_value1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:paddingTop="2dp"
+                tools:text="MACD(12,26,9)"
+                android:textColor="@color/chart_bottom_color_1"
+                android:textSize="@dimen/price_desc_text_size"
+                tools:background="@color/chart_main_color_green" />
+
+            <TextView
+                android:id="@+id/tv_bottom_value2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:paddingTop="2dp"
+                tools:text="MACD:-13.38"
+                android:textColor="@color/chart_bottom_color_2"
+                android:textSize="@dimen/price_desc_text_size"
+                tools:background="@color/chart_main_color_green" />
+
+            <TextView
+                android:id="@+id/tv_bottom_value3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:paddingTop="2dp"
+                tools:text="DIF:31.69"
+                android:textColor="@color/chart_bottom_color_3"
+                android:textSize="@dimen/price_desc_text_size"
+                tools:background="@color/chart_main_color_green" />
+
+            <TextView
+                android:id="@+id/tv_bottom_value4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:paddingTop="2dp"
+                tools:text="DEA:38.38"
+                android:textColor="@color/chart_bottom_color_4"
+                android:textSize="@dimen/price_desc_text_size"
+                tools:background="@color/chart_main_color_green" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_middle_part"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chart_middle_part_height"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/chart_bottom_part_height"
+        android:background="@color/chart_kline_background"
+        tools:background="@android:color/holo_blue_bright"
+        android:paddingLeft="6dp">
+
+        <com.guoziwei.klinelib.chart.CustomCombinedChart
+            android:id="@+id/vol_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:paddingTop="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_vol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:paddingTop="2dp"
+                android:text="VOL:7553.29"
+                android:textColor="@color/chart_vol"
+                android:textSize="@dimen/price_desc_text_size"
+                tools:background="@color/chart_main_color_green" />
+
+            <TextView
+                android:id="@+id/tv_vol_ma5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:paddingTop="2dp"
+                android:text="MA5:7553.29"
+                android:textColor="@color/chart_vol_ma5"
+                android:textSize="@dimen/price_desc_text_size"
+                tools:background="@color/chart_main_color_green" />
+
+            <TextView
+                android:id="@+id/tv_vol_ma10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:paddingTop="2dp"
+                android:text="MA10:7553.29"
+                android:textColor="@color/chart_vol_ma10"
+                android:textSize="@dimen/price_desc_text_size"
+                tools:background="@color/chart_main_color_green" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="6dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_price_info_ma5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:paddingTop="2dp"
+                android:text="MA5:7553.29"
+                android:textColor="@color/chart_ma5"
+                android:textSize="@dimen/price_desc_text_size"
+                tools:background="@color/chart_main_color_green" />
+
+            <TextView
+                android:id="@+id/tv_price_info_ma10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:paddingTop="2dp"
+                android:text="MA10:7553.29"
+                android:textColor="@color/chart_ma10"
+                android:textSize="@dimen/price_desc_text_size"
+                tools:background="@color/chart_main_color_green" />
+
+            <TextView
+                android:id="@+id/tv_price_info_ma30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:paddingTop="2dp"
+                android:text="MA30:7553.29"
+                android:textColor="@color/chart_ma30"
+                android:textSize="@dimen/price_desc_text_size"
+                tools:background="@color/chart_main_color_green" />
+        </LinearLayout>
+
+        <com.guoziwei.klinelib.chart.CustomCombinedChart
+            android:id="@+id/price_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="18dp"
+            />
+
+        <com.guoziwei.klinelib.chart.KLineChartInfoView
+            android:id="@+id/k_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:visibility="gone" />
+
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.wanshare.wscomponent.chart.view.NoTouchScrollViewpager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_below="@id/tab"
+             />
+
+        <TextView
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tab"
+            android:background="#88000000"
+            android:padding="10dp"
+            android:text="全屏"
+            android:textColor="@color/chart_white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:gravity="center"
+            android:text="我的其他信息"
+            android:layout_below="@id/view_pager"
+            />
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
